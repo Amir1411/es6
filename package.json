@@ -1,0 +1,21 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "This is es6 project",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon --watch server --exec babel-node -- server/index.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "Mohd Amir",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.15.4",
+    "nodemon": "^1.11.0"
+  }
+}
