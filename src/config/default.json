@@ -1,0 +1,32 @@
+{
+    "projectName":"es6 Application",
+    "heartbeat":true,
+    "iosApnCertificateForCustomer":"",
+    "iosApnCertificateForDriver":"",
+    "PORT":3002,
+    "mapKey": "AIzaSyDPwvm9_-aQArtMrWocoxmTmBp_jcRUhlw",
+    "twillioCredentials":{
+        "accountSid":"AC537ab5c108102a1ae3b1dbdb96e804d9",
+        "authToken":"a22885b16f4d090525a237a659623a71",
+        "fromNumber":"+1 301-852-7657"
+    },
+    "databaseSettings":{
+        "db_host":"localhost",
+        "db_user":"root",
+        "db_password":"",
+        "database":"lapar",
+        "mysqlPORT":"3306"
+    },
+    "nodeMailer":{
+        "host":"smtp.gmail.com",
+        "port":587,
+        "senderEmail":"md.amir14@gmail.com",
+        "multipleSupportEmailIds":"md.amir14@gmail.com",
+        "senderPassword":"",
+        "From":"OTLBNI <md.amir14@gmail.com>",
+        "signature":"OTLBNI Team",
+        "particularSignature":"Best, \nOTLBNI Dev Team ",
+        "devTeamSignature":"Best,\nOTLBNI Dev Team"
+    },
+    "forgotpasswordUrl": "http://localhost:3002/#!/reset"
+}
